@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ejercicios Tema 4</string>
+    <string name="goToOne">Ejercicio 1</string>
+    <string name="goToTwo">Ejercicio 2</string>
+    <string name="goToThree">Ejercicio 3</string>
+    <string name="ejercicioUno">Ejercicio Uno</string>
+    <string name="mayorDeEdad">Mayor de Edad</string>
+    <string name="soltero">Soltero</string>
+    <string name="casado">Casado</string>
+    <string name="otros">Otros</string>
+    <string name="resultado">Resultado</string>
+    <string name="ejercicioDos">Ejercicio dos</string>
+    <string name="estadoCivil">Estado Civil...</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="elijaEstadoCivil">Elija estado civil</string>
+
+</resources>
