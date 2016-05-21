@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void lanzarActivityThree() {//creamos y lanzamos actividad 3
-        Toast.makeText(getApplicationContext(), "Tres !", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getBaseContext(), Ejercicio3Activity.class);
+        startActivity(intent);
     }
 }

@@ -14,5 +14,11 @@
     <string name="aceptar">Aceptar</string>
     <string name="cancelar">Cancelar</string>
     <string name="elijaEstadoCivil">Elija estado civil</string>
+    <string name="ejercicioTres">Ejercicio tres</string>
+    <string name="ejercicio3">Ejercicio tres</string>
+    <string name="entrada3Label">Introduzca un número o página web</string>
+    <string name="navegar">Navegar</string>
+    <string name="marcar">Marcar</string>
+    <string name="contactos">Contactos</string>
 
 </resources>
