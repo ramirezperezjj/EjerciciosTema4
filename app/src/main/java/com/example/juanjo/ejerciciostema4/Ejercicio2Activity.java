@@ -34,20 +34,14 @@ public class Ejercicio2Activity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setIcon(R.drawable.documento);
         builder.setTitle(getText(R.string.estadoCivil));
-        builder.setMessage(R.string.elijaEstadoCivil);
+        builder.setMessage(getText(R.string.elijaEstadoCivil));
 
-        builder.setSingleChoiceItems(opciones, 0, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-
-            }
-        });
+        builder.setSingleChoiceItems(opciones, 0, null);
 
         builder.setPositiveButton(getText(R.string.aceptar), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 //((EditText) findViewById(R.id.txtResultado2)).setText(opciones[which]);
-                System.out.println("Wich is " + which);
                 dialog.cancel();
             }
 
