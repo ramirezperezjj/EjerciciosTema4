@@ -41,6 +41,7 @@ public class Ejercicio2Activity extends AppCompatActivity {
         builder.setPositiveButton(getText(R.string.aceptar), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+                //TODO Esta línea en teoría hace que se actualice el mensaje como pide el enunciado
                 //((EditText) findViewById(R.id.txtResultado2)).setText(opciones[which]);
                 dialog.cancel();
             }
